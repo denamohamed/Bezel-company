@@ -1,0 +1,490 @@
+/* --  shared  --   */
+
+body{
+    font-family: "Poppins", sans-serif;;
+}
+
+*::selection{
+  background-color: black;
+  color: white;
+}
+
+.font-13{
+    font-size: 13px;
+}
+
+.font-15{
+    font-size: 15;
+}
+
+.font-11{
+    font-size: 11px;
+}
+
+.font-18{
+    font-size: 18px;
+}
+
+.font-60{
+    font-size: 60px;
+}
+
+.blue{
+    color: #00C3DA;
+}
+
+.bg-blue{
+    background-color: #00C3DA;
+}
+
+.font-100{
+    font-size: 100px;
+}
+
+.font-family{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+header h2.text{
+    position: relative;
+    font-size: 70px;
+    color: rgba(199, 198, 198, 0.5);
+    font-weight: bold;
+}
+
+header h2.text::after{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    color: black;
+ }
+ header h2.txt{
+    position: relative;
+    font-size: 80px;
+    color: rgba(171, 171, 171, 0.2);
+    font-weight: bold;
+}
+
+ header h2.txt::after{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(3.5%,-25%);
+ }
+ button.trans{
+    transition: all 0.3s;
+    border: 1px solid #00C3DA;
+ }
+
+ button.trans:hover{
+    background-color: #12d7ed;
+    transform: translateY(-3px);
+}
+
+ /* --  navbar section   -- */
+nav{
+    box-shadow: 0px 0px 17px 7px #0000001b;
+}
+
+nav a.navbar-brand img{
+    width: 95px;
+    margin-left: 30px;
+}
+
+.navbar-nav .nav-link.active{
+   color: #8d8d8d !important;
+}
+
+nav div.line::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: -70;
+    transform: rotate(90deg);
+    width: 100%;
+    height: 0.3px;
+    background-color: #aeaeaea6;
+}
+ /* --  home section   -- */
+div#home div.carousel div.carousel-inner div.image{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+div#home div.carousel div.carousel-inner div.image.one{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/bg-image-28.jpg);
+}
+
+div#home div.carousel div.carousel-inner div.image.two{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/bg-image-29.jpg);
+}
+
+div#home div.carousel div.carousel-inner div.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+div#home div.carousel div.carousel-inner div.center button{
+    font-size: 14px;
+    color: white;
+    padding-inline: 25px;
+    padding-block: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+
+div#home div.carousel div.carousel-inner div.center button.two{
+    background-color: transparent;
+    border: 1px white solid;
+    transition: all 0.3s;
+}
+
+div#home div.carousel div.carousel-inner div.center button.two:hover{
+    background-color: #fff;
+    color: #000;
+    transform: translateY(-3px);
+}
+
+div#home div.carousel-control-prev div.test{
+transform: translateY(56px);
+transition: all 1s;
+}
+
+div#home div.carousel-control-prev div.test:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+  /* -------    about section   ------- */
+
+section#about p span.anmi::after{
+    content:"";
+    animation-name: typing;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    font-size:21px;
+    color: #0078FF;
+}
+
+@keyframes typing{
+    0%{
+        content: "|";
+    }
+    2.5%{
+        content: "a|";
+    }
+    5%{
+        content: "ap|";
+    }
+    7.5%{
+        content: "app|";
+    }
+    10%{
+        content: "apps|";
+    }
+    12.5%{
+        content: "app|";
+    }
+    15%{
+        content: "ap|";
+    }
+    17.5%{
+        content: "a|";
+    }
+    20%{
+        content: "|";
+    }
+    22.5%{
+        content: "w|";
+    }
+    25%{
+        content: "we|";
+    }
+    27.5%{
+        content: "web|";
+    }
+    30%{
+        content: "webs|";
+    }
+    32.5%{
+        content: "websi|";
+    }
+    35%{
+        content: "websit|";
+    }
+    37.5%{
+        content: "website|";
+    }
+    40%{
+        content: "websites|";
+    }
+    42.5%{
+        content: "website|";
+    }
+    45%{
+        content: "websit|";
+    }
+    47.5%{
+        content: "websi|";
+    }
+    50%{
+        content: "webs|";
+    }
+    52.5%{
+        content: "web|";
+    }
+    55%{
+        content: "we|";
+    }
+    57.5%{
+        content: "w|";
+    }
+    60%{
+        content: "|";
+    }
+    62.5%{
+        content: "s|";
+    }
+    65%{
+        content: "so|";
+    }
+    67.5%{
+        content: "sof|";
+    }
+    70%{
+        content: "soft|";
+    }
+    72.5%{
+        content: "softw|";
+    }
+    75%{
+        content: "softwa|";
+    }
+    77.5%{
+        content: "softwar|";
+    }
+    80%{
+        content: "software|";
+    }
+    82.5%{
+        content: "softwares|";
+    }
+    85%{
+        content: "software|";
+    }
+    87.5%{
+        content: "softwar|";
+    }
+    90%{
+        content: "softwa|";
+    }
+    92.5%{
+        content: "softw|";
+    }
+    95%{
+        content: "soft|";
+    }
+    97%{
+        content: "sof|";
+    }
+    98.5%{
+        content: "so|";
+    }
+    100%{
+        content: "s|";
+    }
+}
+
+section#about button{
+    padding-inline: 35px;
+    padding-block: 15px;
+    background-color: white;
+    transition: all 0.4s;
+}
+
+section#about button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* -------    team section   ------- */
+
+ section#team header h2::after{
+    content:"Creative Team";
+ }
+
+ section#team div.container div.layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12;
+    right: 12;
+    background-color: #3acdf5;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateY(100%);
+    transition: all 0.4s;
+ }
+
+ section#team div.container div.sec{
+    overflow: hidden;
+ }
+
+ section#team div.container div.sec:hover div.layer{
+    transform: translateY(0);
+    background-color: #3acdf5df;
+ }
+
+ /* -------    services section   ------- */
+
+ section.services header h2::after{
+    content:"What We Do.";
+    color: white;
+ }
+
+
+ section.services{
+    background-color: #626262;
+ }
+
+ section.services p.size{
+    font-size: 13px;
+    font-weight: 600;
+ }
+
+ section.services ul.style{
+    list-style-type: none;
+    padding-top: 40px;
+ }
+
+ section.services ul.style li{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+    display: flex;
+ }
+
+ section.services ul.style li div.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px white solid;
+    font-size: 10px;
+    margin-right: 10px;
+    align-self: center;
+ }
+ 
+
+
+ /* -------    pricing section   ------- */
+
+section#pricing header h2::after{
+    content: "Cheap Prices";
+}
+
+section#pricing div.container button{
+    padding-inline: 17px;
+    padding-block: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    transition: transform 0.3s;
+}
+
+section#pricing div.container div.section {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+    margin-inline:7px ;
+    padding: 45px 35px;
+}
+
+section#pricing div.container div.section-gold {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+    scale: 1.06 1.05;
+    transform: translateY(-5px);
+    padding: 50px 35px;
+
+}
+
+ /* -------    testmonial section   ------- */
+
+section.testmonial div.carousel div.carousel-indicators div{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #0078FF;
+  }
+
+section.testmonial div.carousel div.carousel-inner img{
+    width: 110px;
+    height: 110px;
+    transform: translateY(50%);
+}
+
+i.arrow{
+    color: #c0c0c0;
+    transition: all 0.3s;
+    font-size: 25px;
+}
+i.arrow:hover{
+    color: #00D1E9;
+}
+
+i.arrow.right:hover{
+    transform: translateX(7px);
+}
+
+i.arrow.left:hover{
+    transform: translateX(-7px);
+}
+
+section.testmonial div.carousel-control-prev{
+    left: 10%;
+}
+
+section.testmonial div.carousel-control-next{
+    right: 10%;
+}
+
+ /* -------    contact section   ------- */
+
+
+section#contact div.row header h2::after{
+    content: "Get In Touch";
+    color: black;
+}
+
+textarea{
+    resize: none;
+
+}
+section#contact form input,
+section#contact form textarea{
+    border: 2px rgb(201, 199, 199) solid;
+    outline: 0;
+}
+
+section#contact form input:focus,
+section#contact form textarea:focus{
+   border-radius: 0;
+   border: 2px #000 solid;
+}

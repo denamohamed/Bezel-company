@@ -1,0 +1,121 @@
+@media (max-width: 576px) { 
+
+}
+
+
+
+@media (max-width: 768px) {
+     div.carousel-control-prev,
+     div.carousel-control-next{
+        display: none;
+    }
+    div.carousel-inner div.carousel-item h1{
+        font-size: 60px;
+    }
+    section#about p span.anmi::after{
+        font-size: 16px !important;
+    }
+    section#about p{
+        font-size: 16px !important;
+
+    }
+    section#about div.width{
+        width: 100% !important;
+    }
+
+
+ }
+
+
+
+@media (max-width: 992px) {
+    nav div.line{ display: none;}
+    nav div#navbarNav ul.navbar-nav li.nav-item{
+        padding-top: 10px;
+    }
+    nav a.navbar-brand img{
+        margin-left: 0;}
+
+    nav a.navbar-brand{
+        padding-left: 0 !important;
+    }
+
+    nav div.container{
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+    div.carousel-inner div.carousel-item h1{
+        font-size: 70px;
+    }
+    div.carousel-inner div.carousel-item p{
+        font-size: 18px !important;
+    }
+    section#about p span.anmi::after{
+        font-size: 18px !important;
+    }
+    section#about p{
+        font-size: 18px !important;
+
+    }
+    section#about div.width{
+        width: 100% !important;
+    }
+    section#services div.container div.clases{
+        justify-content: space-between !important;
+        padding-inline: 10px !important;
+
+    }
+    section#services div.container div.row div.first{
+        padding-inline: 7px !important;
+    }
+    section#services div.container div.row div.first p{
+        width: 100% !important;
+    }
+
+    section#team div.container{
+        padding-inline: 0 !important;
+    }
+    section#team div.container div.row{
+        padding-inline: 0 !important;
+
+    }
+    section#team div.container div.row div.sec{
+        margin-block: 20px;
+    }
+
+    section#pricing div.container div.section {
+        margin-block: 15px;
+    }
+    section#pricing div.container div.section-gold {
+        scale: 1  1;
+        padding: 45px 35px;
+        margin-inline:7px ;
+        padding: 45px 35px;
+        transform: translateY(0); 
+        margin-block: 15px;   
+    }
+    section#testmonial div.carousel-inner div.carousel-item div{
+        width: 95% !important;
+
+    }
+    section#testmonial div.carousel-control-prev,
+    section#testmonial div.carousel-control-next{
+        display: none;
+    }
+
+ }
+
+
+
+@media (max-width: 1200px) { 
+    section#contact div.row div.col-md-6 div{
+        width: 100% !important;
+    }
+
+}
+
+
+
+
+@media (max-width: 1400px) { }
